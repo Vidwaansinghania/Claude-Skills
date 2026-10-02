@@ -6,7 +6,7 @@ Each one lives in its own folder under `skills/` with a `SKILL.md` holding the p
 
 ## Catalog
 
-Every skill in this repo, plus the ones that live elsewhere. The trigger column is the `description` field from each `SKILL.md` frontmatter, which is what Claude reads when deciding whether to load the skill.
+Every skill in this repo. The trigger column is the `description` field from each `SKILL.md` frontmatter, which is what Claude reads when deciding whether to load the skill.
 
 | Skill | What it does | Trigger description | Status | Source of truth |
 |---|---|---|---|---|
@@ -14,14 +14,6 @@ Every skill in this repo, plus the ones that live elsewhere. The trigger column 
 | [chief-risk-officer](skills/chief-risk-officer) | Attacks the case: assumes the thesis is wrong, models failure scenarios and drawdown, rates the risk | Institutional portfolio risk manager focused on preventing permanent capital loss and challenging investment assumptions. | Live | This repo, `skills/chief-risk-officer` |
 | [macro-analyst](skills/macro-analyst) | Sets the regime: classifies the macro environment and translates it into sector and factor positioning | Institutional macroeconomic analyst focused on economic regimes, interest rates, inflation, liquidity conditions, and market implications for portfolio positioning. | Live | This repo, `skills/macro-analyst` |
 | [portfolio-manager](skills/portfolio-manager) | Sizes the position: turns the other three outputs and your holdings into a position size and verdict | Institutional portfolio manager responsible for capital allocation, position sizing, portfolio construction, and risk-adjusted returns. | Live | This repo, `skills/portfolio-manager` |
-
-### Not in this repo yet
-
-| Skill | What it does | Status | Source of truth |
-|---|---|---|---|
-| the-house-always-wins | Congress trading monitor | Unpublished | Local vault at `.claude/skills/the-house-always-wins`; a GitHub-ready copy sits at `_GitHub/the-house-always-wins` |
-| method-2 | Multi-agent equity research | Live elsewhere | [Multi-Agent-Equity-Research](https://github.com/Vidwaansinghania/Multi-Agent-Equity-Research), `skills/method-2` |
-| human-voice | Not documented yet | Unpublished | Not recorded |
 
 ## The investment committee set
 
